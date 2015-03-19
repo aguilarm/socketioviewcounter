@@ -4,16 +4,14 @@
   "description": "use socket.io, mongodb, and express to update pageviews in realtime",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js"
   },
   "author": "mika@favish.com",
   "license": "",
   "dependencies": {
-    "bson": "^0.2.19",
-    "express": "^4.12.2",
+    "express": "^4.12.3",
     "mongodb": "^1.4.34",
-    "mongoose": "^3.8.24",
+    "mongoose": "^3.8.25",
     "socket.io": "^1.3.5"
   }
 }
